@@ -11,8 +11,7 @@ This project supports networked collaborative coding. To use it:
 
 1.  Start the broadcast server:
     ```bash
-    pip install websockets
-    python3 server/broadcast.py
+    cargo run --release --bin server
     ```
 2.  Run the application (multiple instances):
     ```bash
